@@ -1,0 +1,24 @@
+.breadcrumb-item + .breadcrumb-item::before {
+  display: inline-block;
+  padding-right: 0.5rem;
+  color: #6c757d;
+  content: ">>";
+}
+
+
+.bg-primary {
+  background-color: tomato !important;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: pink !important;
+  border-color: #007bff;
+}
+
+
+.active {
+  color: #000 !important;
+  background-color: #0062cc;
+  border-color: #005cbf;
+}
